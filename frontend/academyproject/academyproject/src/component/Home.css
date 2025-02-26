@@ -1,0 +1,102 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;/* Aqua background for a vibrant look */
+    color: #333; /* Dark text for better readability */
+    line-height: 1.6;
+}
+
+/* Home Container */
+.home-container {
+    text-align: center;
+    padding: 60px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7e9a8a;
+    color: #0c100d;
+    
+    transform: translateY(-50px);
+    animation: hh 5.0s ease-out forwards;
+}
+
+/* Heading */
+.heading {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    
+}
+
+@keyframes hh{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+/* Description */
+.description {
+    font-size: 1.4rem;
+    max-width: 750px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Intro Box */
+
+.intro-box:hover{
+    background: rgba(255, 255, 255, 0.156);
+}
+.intro-box {
+    background-color: #51665a;
+    padding: 30px;
+    border-radius: 15px;
+    width: 85%;
+    max-width: 650px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Signup Button */
+.signup-btn {
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    color: white;
+    /* background-color: #a9c3b4; */
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.signup-btn:hover {
+    transform: translateX(50px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: 300;
+}
+

@@ -1,0 +1,46 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Cgpa{
+    background: rgba(255, 255, 255, 0.3);
+    width: 1000px;
+    margin-left: 160px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 20px; 
+
+}
+
+.Cgpa:hover{
+    background: rgba(255, 255, 255, 0.156);
+
+}
+
+button{
+    color: white;
+    background-color: black;
+     border-radius: 10px;
+     width: 200px;
+     height: 40px;
+     border: 1px solid white;
+
+}
+button:hover{
+    background-color: rgb(70, 67, 67);
+}
+.Cgpa{
+    transform: translateY(-50px);
+    animation: aa 5.0s ease-out forwards;
+}
+
+@keyframes aa{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

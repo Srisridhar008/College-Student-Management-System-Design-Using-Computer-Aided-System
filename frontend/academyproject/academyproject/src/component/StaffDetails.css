@@ -1,0 +1,41 @@
+.flex{
+    text-align: center;
+    background-color: #51665a;
+    width: 600px;
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+
+}
+.pro-btn{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+}
+.pro-btn:hover{
+    transform: translateX(50px);
+    background-color: rgb(64, 63, 63);
+}
+
+.flex:hover{
+    background: rgba(255, 255, 255, 0.156);
+}
+
+.flex{
+    transform: translateY(-50px);
+    animation: sd 5.0s ease-out forwards;
+}
+
+
+
+@keyframes sd{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}

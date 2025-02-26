@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    color: black;
+}
+
+.about-heading:hover{
+    letter-spacing:10px ;
+    
+}
+
+.about-heading{
+    font-size: 100px;
+}
+
+
+.about-description{
+    font-size: 20px;
+    text-align: center;
+  
+}
+
+
+.about-footer{
+    margin-top: 100px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: 300;
+    text-align: center
+}
+
+.about-container{
+    transform: translateY(-50px);
+    animation: aa 5.0s ease-out forwards;
+}
+
+@keyframes aa{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
+.benefits{
+    background-color: #51665a;
+    padding: 30px;
+    border-radius: 15px;
+    width: 85%;
+    max-width: 650px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-left: 400px;
+}
+
+.benefits:hover{
+    background: rgba(255, 255, 255, 0.156);
+}

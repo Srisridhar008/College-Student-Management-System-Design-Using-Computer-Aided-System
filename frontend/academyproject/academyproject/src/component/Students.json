@@ -1,0 +1,49 @@
+{
+  "Students": [
+    {
+      "id": "edd4",
+      "RollNo": "22CS105",
+      "name": "sridhar",
+      "PhoneNo": "06369647612",
+      "email": "sri7b21@gmail.com",
+      "RegNo": "453464",
+      "ABCID": "2536574"
+    },
+    {
+      "id": "5156",
+      "RollNo": "22CS085",
+      "name": "Sandy",
+      "PhoneNo": "12415151510",
+      "email": "22cs085@psr.edu.in",
+      "RegNo": "95192201085",
+      "ABCID": "77145477777"
+    },
+    {
+      "id": "65a0",
+      "RollNo": "22CS54",
+      "name": "Manoj",
+      "PhoneNo": "53135135613",
+      "email": "22cs54@psr.edu.in",
+      "RegNo": "7567856398",
+      "ABCID": "452452656563"
+    },
+    {
+      "id": "07a7",
+      "RollNo": "22CS074",
+      "name": "ragand",
+      "PhoneNo": "967483058",
+      "email": "22cs74@psr.edu.in",
+      "RegNo": "65326",
+      "ABCID": "364265"
+    },
+    {
+      "id": "3319",
+      "RollNo": "22CS098",
+      "name": "shunmuga",
+      "PhoneNo": "9425471547",
+      "email": "22cs098@psr.edu.in",
+      "RegNo": "65326",
+      "ABCID": "364265"
+    }
+  ]
+}

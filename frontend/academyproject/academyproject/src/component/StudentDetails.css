@@ -1,0 +1,33 @@
+.student-main{
+     background-color: #51665a;
+     margin-top: 60px;
+     width: 800px;
+     padding: 20px;
+     margin-left:350px ;
+     border-radius: 20px;
+     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    }
+.student-main:hover{
+    background: rgba(255, 255, 255, 0.156);
+}
+
+.student-main{
+    transform: translateY(-50px);
+    animation: ssd 5.0s ease-out forwards;
+}
+ @keyframes ssd{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+ }
+ .ssd-btn{
+    color: white;
+    background-color: black;
+ }
+ .ssd-btn:hover{
+    transform: translateX(50px);
+ }

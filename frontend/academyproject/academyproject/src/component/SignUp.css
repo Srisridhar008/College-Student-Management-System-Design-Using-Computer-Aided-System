@@ -1,0 +1,89 @@
+.formcount{
+    background-color: whitesmoke;
+   margin-top: 100px;
+   margin-left: 450px;
+    width: 500px;
+    height: 480px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+    background-image: url(signup.png);
+    color: white;
+}
+
+form{
+    text-align: center;
+    padding-top:50px ;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 50px;
+}
+input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; 
+    margin-left: 20px;
+}
+.role{
+    margin-right: 50px;
+}
+select{
+    margin-left:10px ;
+}
+.email{
+    margin-right: 30px;
+}
+.formcount{
+    transform: translateY(-50px);
+    animation: aa 5.0s ease-out forwards;
+}
+
+@keyframes aa{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+select{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.signup-button {
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    color:black;
+    /* background-color: #a9c3b4; */
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.signup-button:hover {
+    transform: translateX(50px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
